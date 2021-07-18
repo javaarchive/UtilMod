@@ -1,12 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "io.github.javaarchive.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "VisualMixin",
+    "VisualMixin2",
+    "VisualMixin3",
+    "InternalMixin"
   ],
   "injectors": {
     "defaultRequire": 1
